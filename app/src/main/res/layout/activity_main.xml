@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    android:background="@color/black_2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esemka Police"
+        android:textColor="@color/white_2"
+        android:textSize="32dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_add_kriminal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:paddingVertical="8dp"
+        android:layout_marginTop="10dp"
+        android:text="Tambah Kriminal"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/krimival_rv"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
